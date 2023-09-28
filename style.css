@@ -98,6 +98,19 @@ border-radius: 5px;
     margin-bottom: 50px;
     margin-left: 100px;
 }
+.carousel{
+    background: #512da8;
+}
+.carousel-item{
+    height: 300px;
+}
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
 @media (max-width: 767px) {
     .container {
       grid-template-columns: 1fr; /* Chuyển thành 1 cột cho mobile */
